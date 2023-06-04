@@ -76,8 +76,7 @@ class Text:
     input_payload: str = Colours.yellow("enter payload type: ") + Colours.blue("[_]") + "\b\b" + Colours.blue
     input_content_message: str = Colours.yellow("enter message: ")
     input_content_amount: str = Colours.yellow("enter amount of messages: ")
-    input_tts: str = Colours.yellow("enable text-to-speech on messages? ") + __input_bool + Colours.gray("[_]") + \
-                     "\b\b" + Colours.gray
+    input_tts: str = Colours.yellow("enable text-to-speech on messages? ") + __input_bool + Colours.gray("[_]") + "\b\b"
 
     url_invalid: str = Colours.gray("url is invalid.")
     url_invalid_error: str = Colours.gray("an unexpected error has occurred, and the url has become invalid.")
