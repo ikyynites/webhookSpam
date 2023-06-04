@@ -1,0 +1,4 @@
+requests==2.31.0
+tqdm==4.65.0
+validators==0.20.0
+console==0.9907
