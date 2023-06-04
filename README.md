@@ -3,13 +3,13 @@
 # webhookSpam
 For punishing scammers who use webhooks to relay your private information back to them on discord.
 
-## prerequisites
+## Prerequisites
 1. This assumes that you have obtained the webhook url, along with the token. otherwise this will not work, due to the
 ability for the token to bypass authentication. this [video](https://youtu.be/K8vgRWZnSZw) shows you how to get a
 webhook url from a personal webhook, the method for obtaining a scammers webhook url differs slightly from scammer to
 scammer, unfortunately.
 
-## how to use
+## How to use
 1. Simply, input the webhook url that you would like to punish.
 2. Select a payload type, whether you want to spam the webhook, delete it, or modify it.
    - Depending on the payload, you may be required to fill in additional fields,
